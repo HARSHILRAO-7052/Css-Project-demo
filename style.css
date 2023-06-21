@@ -39,6 +39,8 @@ footer{
 @media (min-width:  375px) and (max-width:  1180px) {   
     .logo{
         width: 100%;
+        object-fit: cover;
+
     }
     h1 {
         font-size: 2.5rem;}
@@ -55,16 +57,16 @@ footer{
         text-align:justify;
     }
     p{
-        margin-bottom: 30px; 
+        margin-bottom: 10px; 
     }
     img{
         width: 100%;
         display: block;
         align-items: center;
+        object-fit: contain;
     }
     footer{
         margin-top:1250px;
     }
-
-
+    
  }
